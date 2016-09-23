@@ -1,0 +1,4 @@
+CXX = icpc
+CFLAGS = -O3 -Wall
+MAKE = make
+AR = ar
