@@ -3,9 +3,14 @@ AlterBBN Version 1.6 (Feb 2016)
 By Alexandre Arbey (alexandre.arbey@ens-lyon.fr) v1.0 - v1.4
 Additions by Kevin Peter Hickerson (hickerson@physics.ucla.edu) v1.5 - v1.6
 
-Modifications by Richard Galvez (richard.a.galvez@vanderbilt.edu) to 
+Modifications by Richard Galvez (RG) (richard.a.galvez@vanderbilt.edu) to 
 neutrino temperature and neutrino energy density calculation integrals v1.6_RGRJS.
-Note: Intel cpp compiler worked best
+
+(RG) Note: Intel cpp compiler worked best. Also, please keep in mind that the instructions
+listed below are compilation and running instructions for the original C version written by 
+Arbey. In order to compile and make the cpp version (this one), please be guided by
+the makefile in this repository as an example. The main driver program in our version
+is alter_neutrino.cpp.
 
 INTRODUCTION
 ------------
